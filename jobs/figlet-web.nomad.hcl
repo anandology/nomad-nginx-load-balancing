@@ -19,12 +19,6 @@ job "figlet-web" {
     }
 
     task "figlet-web-task" {
-
-      env {
-        PORT    = "${NOMAD_PORT_http}"
-        NODE_IP = "${NOMAD_IP_http}"
-      }      
-
       driver = "docker"
 
       config {
