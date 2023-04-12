@@ -1,2 +1,2 @@
 # nomad-nginx-load-balancing
-Minimal Mginx load balancing setup for Nomad 
+Minimal Nginx load balancing setup for Nomad 
